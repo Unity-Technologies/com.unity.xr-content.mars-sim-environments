@@ -1,4 +1,20 @@
-# com.unity.xr-content.mars-sim-environments
-# Converting to public repository
-Any and all Unity software of any description (including components) (1) whose source is to be made available other than under a Unity source code license or (2) in respect of which a public announcement is to be made concerning its inner workings, may be licensed and released only upon the prior approval of Legal.
-The process for that is to access, complete, and submit this [FORM](https://docs.google.com/forms/d/e/1FAIpQLSe3H6PARLPIkWVjdB_zMvuIuIVtrqNiGlEt1yshkMCmCMirvA/viewform).
+# Unity MARS Simulation Environments
+
+A collection of indoor and outdoor Simulation environments and modular pieces to build your own. Simulation environments are prefabs that act as snapshots of the real world in Unity MARS. In the Simulation view, you can preview how your content might react to surfaces and other world data your app detects.
+
+## Requirements
+
+This content requires Unity MARS to function. This content is available through the Unity Content Manager - the recommended installation method. This source branch is provided for inspecting files individually or manual installation.
+
+## Included Simulation Environments
+* Backyard x 2
+* Bedroom x 3
+* Billboard City Block
+* Bodytracking Room
+* Dining Room x 2
+* Factory
+* Kitchen  x 3
+* Living Room x 3
+* Museum
+* Office x 3
+* Park
