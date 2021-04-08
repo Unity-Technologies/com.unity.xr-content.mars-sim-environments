@@ -4,7 +4,7 @@ A collection of indoor and outdoor Simulation environments and modular pieces to
 
 ## Requirements
 
-This content requires Unity MARS to function. This content is available through the Unity Content Manager - the recommended installation method. This source branch is provided for inspecting files individually or manual installation.
+This content requires Unity MARS to function. 
 
 ## Included Simulation Environments
 * Backyard x 2
