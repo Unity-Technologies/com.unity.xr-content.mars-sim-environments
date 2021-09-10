@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7160789992362277937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4133647827833576046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368d260ad0ff5de40bce62b33c20e0b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ClassificationType: door
 --- !u!1001 &5367243857725129575
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7,6 +20,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: dd81fae8688a93b46b5906129a91cb95,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: dd81fae8688a93b46b5906129a91cb95,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21,6 +39,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dd81fae8688a93b46b5906129a91cb95,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: dd81fae8688a93b46b5906129a91cb95,
         type: 3}
@@ -39,16 +62,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: dd81fae8688a93b46b5906129a91cb95,
         type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: dd81fae8688a93b46b5906129a91cb95,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: dd81fae8688a93b46b5906129a91cb95,
-        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -64,17 +77,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: dd81fae8688a93b46b5906129a91cb95,
         type: 3}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: bf722566181aa954399752bb58be7df3, type: 2}
-    - target: {fileID: -1504981713932161579, guid: dd81fae8688a93b46b5906129a91cb95,
-        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: afb9013263732024fb75caaa0e4a1e38, type: 2}
     - target: {fileID: -1504981713932161579, guid: dd81fae8688a93b46b5906129a91cb95,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: bf722566181aa954399752bb58be7df3, type: 2}
+    - target: {fileID: -1504981713932161579, guid: dd81fae8688a93b46b5906129a91cb95,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: bf722566181aa954399752bb58be7df3, type: 2}
     - target: {fileID: -1504981713932161579, guid: dd81fae8688a93b46b5906129a91cb95,
@@ -89,3 +102,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd81fae8688a93b46b5906129a91cb95, type: 3}
+--- !u!1 &4133647827833576046 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: dd81fae8688a93b46b5906129a91cb95,
+    type: 3}
+  m_PrefabInstance: {fileID: 5367243857725129575}
+  m_PrefabAsset: {fileID: 0}
